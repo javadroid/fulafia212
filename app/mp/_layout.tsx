@@ -5,6 +5,7 @@ import { Platform } from 'react-native';
 export default function Mp() {
   return (
     <Stack
+    initialRouteName='Webview'
       screenOptions={{
         headerShown: false,
         animation: 'slide_from_right',
@@ -17,7 +18,7 @@ export default function Mp() {
       }}
     >
       <Stack.Screen   
-        name="HomeScreen" 
+        name="Webview" 
         options={{ 
           headerShown: false,
           animation: 'fade',
